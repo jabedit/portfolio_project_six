@@ -1,0 +1,168 @@
+
+@media only screen and (max-width:1200px){
+    header{
+        height: 65vh;
+    }
+    .hero-text-box{
+        position: absolute;
+        top: 35%;
+    }
+}
+
+@media only screen and (max-width:1024px){
+    html,body{
+        font-size: 57.5%;
+    }
+    header{
+        height: 55vh;
+    }
+    .hero-text-box{
+        position: absolute;
+        top: 30%;
+    }
+    .row{
+        margin: 0 15px;
+    }
+    .client-image{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .sticky{
+        z-index: 999999;
+    }
+    .client-review{
+        float: none;
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+        padding: 0 30px;
+    }
+    .span_1_of_2:nth-child(4){
+        margin-left: 0;
+    }
+    .contact-section form{
+        width: 100%;
+        margin: auto;
+    }
+}
+@media only screen and (max-width:980px){
+    .mobile-manu span{
+        display: block;
+    }
+    .span_1_of_4:nth-child(3){
+        margin-left: 0 !important;
+    }
+    .client-review{
+        padding: 0 0px;
+    }
+    .main-nav{
+        display: none;
+    }
+    .portfolio-image{
+        height: auto;
+    }
+    .hero-text-box{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .span_1_of_4 {
+    width: 49.2%!important;
+    }
+    .span_1_of_4:nth-child(3) {
+    margin-left: 0 !important;
+    }
+    .html,body{
+        font-size: 62.5%;
+    }
+    .hero-text-box{
+        width: 100%;
+    }
+    .portfolio-image{
+        height: auto;
+    }
+   
+    h1{
+        font-size: 3.5rem;
+        
+    }
+    h2{
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 2.5rem;
+    }
+    .litle-description{
+        width: 100%;
+    }
+    .testimonial .col:nth-child(3),
+    .testimonial .col:nth-child(4){
+        margin-top: 4rem;
+    }
+    
+}
+
+
+@media only screen and (max-width:480px){
+     header{
+        height: 85vh;
+    }
+    .hero-text-box{
+        position: absolute;
+        top: 45%;
+    }
+    .client-review{
+        padding: 0 0px;
+    }
+    .span_1_of_4 {
+    width: 100%!important;
+    }
+    .hero-text-box h1 {
+    font-size: 3.5rem;
+    color: #fff;
+        padding: 0 1.5rem;
+    }
+     h1{
+        font-size: 3rem;
+        
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    .litle-description{
+        width: 100%;
+    }
+    .testimonial .col:nth-child(3),
+    .testimonial .col:nth-child(4){
+        margin-top: 4rem;
+    }
+    button{
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
